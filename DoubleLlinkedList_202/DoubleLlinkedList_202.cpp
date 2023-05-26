@@ -4,7 +4,7 @@ using namespace std;
 
 class Node {
 public:
-	int noMhs:
+	int noMhs;
 	string name;
 	Node* next;
 	Node* prev;
@@ -42,6 +42,12 @@ void Doublelinkedlist::addNode() {
 
 	//insert a node in the begininning of a doubly - linked list*/
 	if (START == NULL || nim <= START->noMhs) {
-		if ()
+		if (START != NULL || nim <= START->noMhs) {
+			cout << "\Duplicate number not allowed" << endl;
+			return;
+		}
+		newNode->next = START; // step 3
+		if (START != NULL)
+			START->prev = newNode; // step 4
 	}
 }
