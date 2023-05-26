@@ -6,6 +6,13 @@ class Node {
 public:
 	int noMhs:
 	string name;
+	Node* next;
+	Node* prev;
 
+};
+class Doublelinkedlist {
+private:
+	Node* START;
+public:
 
 };
