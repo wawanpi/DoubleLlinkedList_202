@@ -55,4 +55,5 @@ void Doublelinkedlist::addNode() {
 	}
 
 	/*inserting a node between two nodes in the list*/
+	Node*
 }
